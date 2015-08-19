@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_company_register">CompanyRegister</string>
+    <string name="title_activity_emp_register">EmpRegister</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_co_navig">CoNavig</string>
+    <string name="title_activity_js_navig">JsNavig</string>
+    <string name="title_activity_upload_main">UploadMain</string>
+    <string name="title_activity_file_picker">FilePicker</string>
+    <string name="title_activity_upload_resume">UploadResumeAct</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_js_expand_job">JsExpandJob</string>
+    <string name="title_activity_co_expand_employees">CoExpandEmployees</string>
+    <string name="title_activity_jobify">Jobify</string>
+    <string name="title_activity_emp_login">EmpLogin</string>
+    <string name="title_activity_login_register_dual">LoginRegisterDual</string>
+    <string name="title_activity_company_login">CompanyLogin</string>
+    <string name="title_activity_download_file">DownloadFile</string>
+
+</resources>

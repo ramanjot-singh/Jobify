@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CompanyRegister"
+            android:label="@string/title_activity_company_register" >
+        </activity>
+        <activity
+            android:name=".EmpRegister"
+            android:label="@string/title_activity_emp_register" >
+        </activity>
+        <activity
+            android:name="company.CoNavig"
+            android:label="@string/title_activity_co_navig" >
+        </activity>
+        <activity
+            android:name="js.JsNavig"
+            android:label="@string/title_activity_js_navig" >
+             
+        </activity>
+        <activity
+            android:name="upload.UploadMain"
+            android:label="@string/title_activity_upload_main" >
+        </activity>
+        <activity
+            android:name="upload.FilePicker"
+            android:label="@string/title_activity_file_picker" >
+        </activity>
+        <activity
+            android:name="upload.UploadResumeAct"
+            android:label="@string/title_activity_upload_resume" >
+            
+        </activity>
+        <activity
+            android:name="js.JsExpandJob"
+            android:label="@string/title_activity_js_expand_job" >
+        </activity>
+        <activity
+            android:name="company.CoExpandEmployees"
+            android:label="@string/title_activity_co_expand_employees" >
+        </activity>
+        <activity
+            android:name=".Jobify"
+            android:label="@string/title_activity_jobify" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmpLogin"
+            android:label="@string/title_activity_emp_login" >
+        </activity>
+        <activity
+            android:name=".LoginRegisterDual"
+            android:label="@string/title_activity_login_register_dual" >
+        </activity>
+        <activity
+            android:name=".CompanyLogin"
+            android:label="@string/title_activity_company_login" >
+        </activity>
+        <activity
+            android:name="download.DownloadFile"
+            android:label="@string/title_activity_download_file" >
+           
+        </activity>
+    </application>
+
+</manifest>
